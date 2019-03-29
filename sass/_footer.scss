@@ -1,0 +1,27 @@
+footer {
+    .nav {
+        &-link {
+            color: $white;
+            opacity: .25;
+
+            div {
+                font-size: 17px;
+            }
+
+            small {
+                font-size: 9px;
+            }
+
+            &:hover,
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+
+    .btn {
+        background-color: #131313;
+        border-color: #131313;
+        color: #818181
+    }
+}

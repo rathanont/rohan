@@ -1,0 +1,22 @@
+header {
+    .nav {
+        &-link {
+            color: $white;
+
+            div {
+                font-size: 26px;
+            }
+
+            small {
+                font-size: 15px;
+            }
+
+            &:hover,
+            &.active {
+                div {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
