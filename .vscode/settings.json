@@ -1,0 +1,7 @@
+{
+    "liveSassCompile.settings.formats": [{
+        "format": "nested",
+        "extensionName": ".css",
+        "savePath": "/dist/css"
+    }]
+}
