@@ -1,10 +1,14 @@
 $primary: #ff3700;
 $warning:#FE7900;
 $danger:#EF1100;
-$dark: #0a0a0a;
+$dark: #0B0B0B;
+$darklight: #151515;
 
 $body-bg: #000000;
 $body-color: #ffffff;
+
+$theme-colors: ("darklight": $darklight,
+);
 
 $font-prompt: 'Prompt';
 $font-TSTbackpower: 'TSTbackpower';
