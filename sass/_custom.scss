@@ -8,3 +8,29 @@
     background: url('../images/bg-landing.jpg') no-repeat top center;
     background-size: auto;
 }
+
+.carousel-indicators {
+    // margin-bottom: .5rem;
+
+    li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        border: 2px solid transparent;
+    }
+
+    .active {
+        background-color: $black;
+        border: 2px solid $primary;
+    }
+}
+
+.m {
+    &t {
+        &-- {
+            &2 {
+                margin-top: -0.5rem;
+            }
+        }
+    }
+}

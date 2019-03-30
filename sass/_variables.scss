@@ -1,8 +1,9 @@
 $primary: #ff3700;
+$secondary:#C0C0C0;
 $warning:#FE7900;
 $danger:#EF1100;
 $dark: #0B0B0B;
-$darklight: #151515;
+$darklight: #252525;
 
 $body-bg: #000000;
 $body-color: #ffffff;
@@ -28,3 +29,11 @@ md: 720px,
 lg: 960px,
 xl: 1140px,
 xxl: 1557px);
+
+$font-size-heading: 0.975rem;
+$h1-font-size: $font-size-heading * 2.5;
+$h2-font-size: $font-size-heading * 2;
+$h3-font-size: $font-size-heading * 1.75;
+$h4-font-size: $font-size-heading * 1.5;
+$h5-font-size: $font-size-heading * 1.25;
+$h6-font-size: $font-size-heading;
