@@ -2,6 +2,10 @@
     @include media-breakpoint-down(xl) {
         max-width: 100%;
     }
+
+    &-fluid {
+        max-width: 1557px;
+    }
 }
 
 .landing-page {

@@ -8964,17 +8964,6 @@ header .nav-link {
     color: #ff3700; }
   header .nav-link-logo {
     padding: unset; }
-    header .nav-link-logo img {
-      max-width: 100%; }
-      @media (min-width: 992px) and (max-width: 1199.98px) {
-        header .nav-link-logo img {
-          width: 150px; } }
-      @media (min-width: 768px) and (max-width: 991.98px) {
-        header .nav-link-logo img {
-          width: 120px; } }
-      @media (max-width: 767.98px) {
-        header .nav-link-logo img {
-          width: 100px; } }
 
 footer .nav-link {
   color: #fff;
@@ -8999,6 +8988,9 @@ footer .btn {
   .container {
     max-width: 100%; } }
 
+.container-fluid {
+  max-width: 1557px; }
+
 .landing-page {
   background: url("../images/bg-landing.jpg") no-repeat top center;
   background-size: auto; }
@@ -9022,20 +9014,6 @@ footer .btn {
 .landing-page #register {
   padding-bottom: 100px; }
   .landing-page #register .btn-register {
-    background: url("../images/bg-btn-register.png") no-repeat center center;
-    background-size: 100% 100%;
-    padding: 20px 85px 30px;
-    font-family: "TSTbackpower";
+    display: inline-block;
     margin-top: 450px; }
-    .landing-page #register .btn-register div {
-      font-size: 39px;
-      margin-bottom: -15px;
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#FE7900), to(#EF1100));
-      background-image: linear-gradient(to bottom, #FE7900 0%, #EF1100 100%);
-      background-repeat: repeat-x;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
-    .landing-page #register .btn-register small {
-      font-size: 15px;
-      text-transform: uppercase; }
 /*# sourceMappingURL=style.css.map */

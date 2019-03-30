@@ -7,24 +7,8 @@
         padding-bottom: 100px;
 
         .btn-register {
-            background: url('../images/bg-btn-register.png') no-repeat center center;
-            background-size: 100% 100%;
-            padding: 20px 85px 30px;
-            font-family: $font-TSTbackpower;
+            display: inline-block;
             margin-top: 450px;
-
-            div {
-                font-size: 39px;
-                margin-bottom: -15px;
-                @include gradient-y($start-color: $warning, $end-color: $danger, $start-percent: 0%, $end-percent: 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-
-            small {
-                font-size: 15px;
-                text-transform: uppercase;
-            }
         }
     }
 
