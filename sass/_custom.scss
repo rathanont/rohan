@@ -1,5 +1,10 @@
 .container {
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(xl) {
         max-width: 100%;
     }
+}
+
+.landing-page {
+    background: url('../images/bg-landing.jpg') no-repeat top center;
+    background-size: cover;
 }

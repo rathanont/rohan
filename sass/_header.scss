@@ -4,17 +4,41 @@ header {
             color: $white;
 
             div {
+                font-family: $font-TSTbackpower;
                 font-size: 26px;
+                margin-bottom: -10px;
             }
 
             small {
+                font-family: $font-TSTunited;
                 font-size: 15px;
+                text-transform: uppercase;
             }
 
             &:hover,
             &.active {
                 div {
                     color: $primary;
+                }
+            }
+
+            &-logo {
+                padding: unset;
+
+                img {
+                    max-width: 100%;
+
+                    @include media-breakpoint-only(lg) {
+                        width: 150px;
+                    }
+
+                    @include media-breakpoint-only(md) {
+                        width: 120px;
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        width: 100px;
+                    }
                 }
             }
         }

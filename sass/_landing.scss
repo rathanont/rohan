@@ -1,0 +1,27 @@
+.landing-page {
+    #register {
+        padding-bottom: 100px;
+
+        .btn-register {
+            background: url('../images/bg-btn-register.png') no-repeat center center;
+            background-size: 100%;
+            padding: 16px 86px;
+            font-family: $font-TSTbackpower;
+            margin-top: 450px;
+
+            div {
+                font-size: 39px;
+                margin-bottom: -15px;
+                // background: -webkit-linear-gradient(#EF1100, #FF7E00);
+                @include gradient-y($start-color: $warning, $end-color: $danger, $start-percent: 0%, $end-percent: 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            small {
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

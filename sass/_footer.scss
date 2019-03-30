@@ -5,11 +5,15 @@ footer {
             opacity: .25;
 
             div {
+                font-family: $font-TSTbackpower;
                 font-size: 17px;
+                margin-bottom: -10px;
             }
 
             small {
+                font-family: $font-TSTunited;
                 font-size: 9px;
+                text-transform: uppercase;
             }
 
             &:hover,

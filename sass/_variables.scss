@@ -1,8 +1,26 @@
 $primary: #ff3700;
+$warning:#FE7900;
+$danger:#EF1100;
 $dark: #0a0a0a;
 
 $body-bg: #000000;
 $body-color: #ffffff;
 
-$font-family-base: 'Prompt';
-// $headings-font-family:;
+$font-prompt: 'Prompt';
+$font-TSTbackpower: 'TSTbackpower';
+$font-TSTunited: 'TSTunited';
+$font-family-base: $font-prompt;
+$headings-font-family: $font-TSTbackpower;
+
+$grid-breakpoints: (xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1600px);
+
+$container-max-widths: (sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+xxl: 1557px);
