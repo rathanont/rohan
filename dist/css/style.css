@@ -9093,4 +9093,12 @@ footer .btn {
   .landing-page #register .btn-register {
     display: inline-block;
     margin-top: 450px; }
+  .landing-page #register .vdo {
+    background: #ef1000;
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #ef1000), color-stop(37%, #fe7b00), color-stop(63%, #fe7b00), color-stop(100%, #ef1000));
+    background: linear-gradient(45deg, #ef1000 0%, #fe7b00 37%, #fe7b00 63%, #ef1000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef1000', endColorstr='#ef1000', GradientType=1);
+    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    padding: 3px; }
 /*# sourceMappingURL=style.css.map */

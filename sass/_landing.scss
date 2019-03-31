@@ -10,6 +10,20 @@
             display: inline-block;
             margin-top: 450px;
         }
+
+        .vdo {
+            // @include gradient-directional($start-color: $danger, $end-color: $warning, $deg: 45deg);
+            background: rgba(239, 16, 0, 1);
+            background: -moz-linear-gradient(45deg, rgba(239, 16, 0, 1) 0%, rgba(254, 123, 0, 1) 37%, rgba(254, 123, 0, 1) 63%, rgba(239, 16, 0, 1) 100%);
+            background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(239, 16, 0, 1)), color-stop(37%, rgba(254, 123, 0, 1)), color-stop(63%, rgba(254, 123, 0, 1)), color-stop(100%, rgba(239, 16, 0, 1)));
+            background: -webkit-linear-gradient(45deg, rgba(239, 16, 0, 1) 0%, rgba(254, 123, 0, 1) 37%, rgba(254, 123, 0, 1) 63%, rgba(239, 16, 0, 1) 100%);
+            background: -o-linear-gradient(45deg, rgba(239, 16, 0, 1) 0%, rgba(254, 123, 0, 1) 37%, rgba(254, 123, 0, 1) 63%, rgba(239, 16, 0, 1) 100%);
+            background: -ms-linear-gradient(45deg, rgba(239, 16, 0, 1) 0%, rgba(254, 123, 0, 1) 37%, rgba(254, 123, 0, 1) 63%, rgba(239, 16, 0, 1) 100%);
+            background: linear-gradient(45deg, rgba(239, 16, 0, 1) 0%, rgba(254, 123, 0, 1) 37%, rgba(254, 123, 0, 1) 63%, rgba(239, 16, 0, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef1000', endColorstr='#ef1000', GradientType=1);
+            box-shadow: $box-shadow-lg;
+            padding: 3px;
+        }
     }
 
 }
