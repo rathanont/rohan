@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+<?php echo
+'<!DOCTYPE html>
 <html lang="th" class="h-100">
 
 <head>
     <meta charset="UTF-8">
     <title>ROHAN</title>
-    <link rel="icon" href="./favicon.ico">
-    <link rel="stylesheet" href="../dist/css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./dist/css/style.css">
 </head>
 
 <body class="landing-page d-flex flex-column h-100">
@@ -39,4 +40,5 @@
                 <small>Member Login</small>
             </a>
         </nav>
-    </header>
+    </header>'
+    ?>

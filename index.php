@@ -1,5 +1,5 @@
 <!-- Include header -->
-<?php include('./include/header.php') ?>
+<?php include './include/header.php'; ?>
 
     <main class="flex-shrink-0 container">
         <!-- Register -->
@@ -531,4 +531,4 @@
     </main>
 
    <!-- Include footer -->
-<?php include('./include/footer.php') ?>
+<?php include './include/footer.php'; ?>

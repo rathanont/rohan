@@ -1,4 +1,5 @@
-<footer class="mt-auto bg-dark pt-1 pb-4">
+<?php 
+echo '<footer class="mt-auto bg-dark pt-1 pb-4">
         <div class="container">
             <nav class="nav justify-content-between align-items-center text-center mb-5">
                 <a href="#" class="nav-link active">
@@ -32,8 +33,9 @@
         </div>
     </footer>
 
-    <script src="../dist/js/jquery.min.js"></script>
-    <script src="../dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
-</html>
+</html>'
+?>
