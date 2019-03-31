@@ -1,15 +1,13 @@
 .container {
-    @include media-breakpoint-down(xl) {
-        max-width: 100%;
-    }
 
-    &-fluid {
-        max-width: 1557px;
+    @include media-breakpoint-down(lg) {
+        max-width: 100% !important;
+        width: 100% !important;
     }
 }
 
 .landing-page {
-    background: url('../images/bg-landing.jpg') no-repeat top center;
+    background: $body-bg url('../images/bg-landing.jpg') no-repeat top center;
     background-size: auto;
 }
 

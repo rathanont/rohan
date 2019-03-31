@@ -17,19 +17,6 @@ $font-TSTunited: 'TSTunited';
 $font-family-base: $font-prompt;
 $headings-font-family: $font-TSTbackpower;
 
-$grid-breakpoints: (xs: 0,
-sm: 576px,
-md: 768px,
-lg: 992px,
-xl: 1200px,
-xxl: 1600px);
-
-$container-max-widths: (sm: 540px,
-md: 720px,
-lg: 960px,
-xl: 1140px,
-xxl: 1557px);
-
 $font-size-heading: 0.975rem;
 $h1-font-size: $font-size-heading * 2.5;
 $h2-font-size: $font-size-heading * 2;
@@ -37,3 +24,19 @@ $h3-font-size: $font-size-heading * 1.75;
 $h4-font-size: $font-size-heading * 1.5;
 $h5-font-size: $font-size-heading * 1.25;
 $h6-font-size: $font-size-heading;
+
+
+$grid-breakpoints: (xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1600px);
+$container-max-widths: (sm: 100%,
+md: 100%,
+lg: 100%,
+xl: 100%,
+xxl: 1557px);
+
+$enable-responsive-font-sizes: true;
+$rfs-base-font-size:1rem;
