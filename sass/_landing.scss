@@ -1,6 +1,16 @@
 .landing-page {
+    min-height: 100%;
+
+    header {
+        z-index: 1;
+    }
+
     main {
         margin-bottom: 260px;
+    }
+
+    footer {
+        z-index: 1;
     }
 
     #register {

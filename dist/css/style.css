@@ -9063,14 +9063,24 @@ footer .btn {
   border-color: #131313;
   color: #818181; }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden; }
+  .bg-video video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    min-width: 100%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+
 @media (max-width: 1199.98px) {
   .container {
     max-width: 100% !important;
     width: 100% !important; } }
-
-.landing-page {
-  background: #000000 url("../images/bg-landing.jpg") no-repeat top center;
-  background-size: auto; }
 
 .carousel-indicators li {
   width: 10px;
@@ -9085,20 +9095,25 @@ footer .btn {
 .mt--2 {
   margin-top: -0.5rem; }
 
-.landing-page main {
-  margin-bottom: 260px; }
-
-.landing-page #register {
-  padding-bottom: 100px; }
-  .landing-page #register .btn-register {
-    display: inline-block;
-    margin-top: 450px; }
-  .landing-page #register .vdo {
-    background: #ef1000;
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #ef1000), color-stop(37%, #fe7b00), color-stop(63%, #fe7b00), color-stop(100%, #ef1000));
-    background: linear-gradient(45deg, #ef1000 0%, #fe7b00 37%, #fe7b00 63%, #ef1000 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef1000', endColorstr='#ef1000', GradientType=1);
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-    padding: 3px; }
+.landing-page {
+  min-height: 100%; }
+  .landing-page header {
+    z-index: 1; }
+  .landing-page main {
+    margin-bottom: 260px; }
+  .landing-page footer {
+    z-index: 1; }
+  .landing-page #register {
+    padding-bottom: 100px; }
+    .landing-page #register .btn-register {
+      display: inline-block;
+      margin-top: 450px; }
+    .landing-page #register .vdo {
+      background: #ef1000;
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, #ef1000), color-stop(37%, #fe7b00), color-stop(63%, #fe7b00), color-stop(100%, #ef1000));
+      background: linear-gradient(45deg, #ef1000 0%, #fe7b00 37%, #fe7b00 63%, #ef1000 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef1000', endColorstr='#ef1000', GradientType=1);
+      -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+              box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+      padding: 3px; }
 /*# sourceMappingURL=style.css.map */

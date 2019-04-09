@@ -1,3 +1,19 @@
+.bg-video {
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+
+    video {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        min-width: 100%;
+        transform: translateX(-50%);
+    }
+}
+
 .container {
 
     @include media-breakpoint-down(lg) {
@@ -6,10 +22,10 @@
     }
 }
 
-.landing-page {
-    background: $body-bg url('../images/bg-landing.jpg') no-repeat top center;
-    background-size: auto;
-}
+// .landing-page {
+//     background: $body-bg url('../images/bg-landing.jpg') no-repeat top center;
+//     background-size: auto;
+// }
 
 .carousel-indicators {
     // margin-bottom: .5rem;
