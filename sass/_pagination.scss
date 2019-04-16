@@ -1,0 +1,21 @@
+.page-link{
+    margin-left: .5rem;
+}
+.page-item{
+    opacity: .5;
+    &:first-child {
+        .page-link {
+          border-top-left-radius: 0 !important;
+          border-bottom-left-radius: 0 !important;
+        }
+      }
+      &:last-child {
+        .page-link {
+            border-top-right-radius: 0 !important;
+          border-bottom-right-radius: 0 !important;
+        }
+      }
+    &.active{
+        opacity: 1;
+    }
+}

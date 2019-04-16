@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="th" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROHAN</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./dist/css/style.css">
+</head>
+
+<body class="landing-page d-flex flex-column">
+    <!-- BG Video -->
+    <div class="bg-video">
+        <video autoplay muted loop>
+            <source src="./dist/videos/bg-vdo.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <header class="container">
+        <nav class="nav justify-content-between align-items-center text-center">
+            <a href="#" class="nav-link ">
+                <div>หน้าหลัก</div>
+                <small>Home</small>
+            </a>
+            <a href="#" class="nav-link ">
+                <div>ข่าวสาร</div>
+                <small>News</small>
+            </a>
+            <a href="#" class="nav-link active">
+                <div>แนะนำผู้เล่น</div>
+                <small>Game Guide</small>
+            </a>
+            <a href="./index.html" class="nav-link nav-link-logo">
+                <img src="./dist/images/LOGO.png" alt="ROHAN">
+            </a>
+            <a href="#" class="nav-link">
+                <div>ดาวน์โหลด</div>
+                <small>Download</small>
+            </a>
+            <a href="#" class="nav-link">
+                <div>ไอเท็มมอล</div>
+                <small>R-Mall</small>
+            </a>
+            <a href="#" class="nav-link">
+                <div>ระบบสมาชิก</div>
+                <small>Member Login</small>
+            </a>
+        </nav>
+    </header>
+
+    <main class="flex-shrink-0 container">
+        <!-- Register -->
+        <section id="register">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <a href="#" class="btn-register">
+                        <img src="./dist/images/Register.png" alt="Register">
+                    </a>
+                </div>
+
+                <!-- VDO -->
+                <div class="col-6 p-5">
+                    <div class="vdo mt-5">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mJc-Dg0rNRg"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="col-3">
+                <nav class="nav flex-column flex-nowrap mb-4">
+                    <!-- Game guide -->
+                    <a class="nav-link p-0" href="#">
+                        <img src="./dist/images/Game Guide.png" alt="เกมไกด์" class="w-100">
+                    </a>
+                    <div class="card bg-dark">
+                        <div class="nav flex-column nav-game-guide" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-history-tab" data-toggle="pill"
+                                href="#v-pills-history" role="tab" aria-controls="v-pills-history"
+                                aria-selected="true">กำเนิดโรฮาน</a>
+                            <a class="nav-link" id="v-pills-start-tab" data-toggle="pill" href="#v-pills-start"
+                                role="tab" aria-controls="v-pills-start" aria-selected="false">เริ่มเล่นเกม</a>
+                            <a class="nav-link" id="v-pills-career-tab" data-toggle="pill" href="#v-pills-career"
+                                role="tab" aria-controls="v-pills-career" aria-selected="false">อาชีพ</a>
+                            <a class="nav-link" id="v-pills-rulse-tab" data-toggle="pill" href="#v-pills-rulse"
+                                role="tab" aria-controls="v-pills-rulse" aria-selected="false">ระบบภายในเกม</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Highlight -->
+                <div class="card card-highlight bg-dark mb-4">
+                    <h4 class="card-header text-primary text-uppercase">HIGHLIGHT</h4>
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mJc-Dg0rNRg"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GM -->
+                <div class="card card-gm bg-dark mb-4">
+                    <h4 class="card-header text-primary text-uppercase">GM Contact</h4>
+                    <div class="card-body">
+                        <div>แชทซัพพอร์ต ทุกวัน</div>
+                        <div class="bg-darklight rounded p-2 mt-2 mb-4 d-flex justify-content-center time-open">
+                            <span class="mr-2"><img src="./dist/images/Clock icon.png" alt="เวลา"
+                                    class="img-fluid"></span>
+                            <h4 class="mb-0 font-prompt">
+                                12:00 น - 22:00
+                            </h4>
+                        </div>
+                        <div class="text-center">
+
+                            <small class="text-muted">e-mail</small>
+                            <h4 class="font-prompt mb-4"><a href="mailto:gm@rha.in.th"
+                                    class="text-white">Gm@rha.in.th</a></h4>
+                            <small class="text-muted">พูดคุยกับทีมงานได้ผ่านระบบ LIVE CHAT <br>
+                                วันทำการ : สามารถติดต่อทีมงานได้ทุกวัน</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="card bg-dark">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <!-- กำเนิดโรฮาน -->
+                        <div class="tab-pane fade show active" id="v-pills-history" role="tabpanel"
+                            aria-labelledby="v-pills-history-tab">
+                            <div class="p-5">
+                                <h1 class="text-center mb-5 text-gold">ปฐมบทตำนานโรฮาน : กำเนิดโรฮาน</h1>
+
+                                <div class="row mb-5">
+                                    <div class="col-4">
+                                        <img src="./dist/images/history-img1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-8 small text-gold-light">
+                                        <p>Rohan ได้ถือกำเนิดขึ้นจากการสร้างของมหาเทพ Ohn เทพแห่งแสงสว่าง
+                                            และเทพแห่งการสร้างสรรค์ พระองค์ประทานพลังแห่งชีวิต เสกสรร
+                                            ปรับสมดุลจนทำให้เกิดโลกอันงดงาม และได้ให้ชื่อโลกใบนี้ว่า โรฮาน ต่อมาเทพ Ohn
+                                            มีความคิดที่จะให้มีสิ่งมีชีวิตชั้นสูงเพื่อคอยปกป้องโลก
+                                            และนำจิตวิญญาณไปสู่โลก
+                                            พระองค์จึงสั่งให้เทพบริวารทั้ง 5
+                                            แข่งกันสร้างสิ่งมีชิวิตขึ้นมาเพื่อจะให้เผ่าพันธุ์ที่ถูกสร้างขึ้นมาปกครองโลก
+                                        </p>
+                                        <p>
+                                            Peleus เทพแห่งไฟ ได้ใช้ไฟศักสิทธิ์มาสร้างสิ่งมีชีวิตที่เรียกว่าHuman
+                                            (มนุษย์)
+                                            ด้วยอำนาจไฟศักสิทธิ์มีผลทำให้มนุษย์เป็นผู้มีความสามารถในการต่อสู้
+                                            มีจิตใจที่กล้าหาญ และยุติธรรม
+                                            ด้วยความเมตตาของเทพแห่งไฟทรงยังประทานพลังแห่งไฟลงไปยังในเผ่าพันธุ์มนุษย์
+                                            แต่ก่อนที่จะสร้างมนุษย์ขึ้นมา เทพ Ohn ได้ขอแบ่งเปลวไฟศักสิทธิ์จาก เทพ Peleus
+                                            ไป
+                                        </p>
+                                        <p>
+                                            Geogia เทพแห่งดินได้ยกภูเขาที่สูงที่สุดในโรฮานแล้วนำหินผาทั้งภูเขาสร้างเป็น
+                                            Giant (ยักษ์) ด้วยพลังแห่งดินทำให้ ยักษ์มีร่างกายใหญ่โต มีพละกำลังมหาศาล
+                                            จนทำให้เทพ Ohn ชื่นชมในอำนาจของเทพ Geogia เป็นอย่างมาก
+                                            จึงได้เก็บเอาหินภูเขาจากการสร้างยักษ์ไว้</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-5">
+                                    <div class="col-8 small text-gold-light">
+                                        <p>Ava เทพแห่งน้ำได้รวบรวมน้ำจากแม่น้ำทุกสายบนโรฮาน แล้วบันดาลให้เกิด Elves
+                                            (เอลฟ์)
+                                            พรจากเทพ Ava ทำให้เอลฟ์เป็นสิ่งมีชีวิตที่งดงาม
+                                            มากด้วยปัญญาและเชียวชาญการใช้เวทมนต์ เมื่อสร้างเอลฟ์ขี้นมาแล้ว Ava
+                                            ได้มอบน้ำที่ใช้ในการสร้างเอลฟ์ส่วนนึงให้กับเทพ Ohn และ เทพ Shilen
+                                        </p>
+                                        <p>
+                                            Demetris เทพแห่งลมได้เสกพายุ และสายฟ้า หมุนวนมารวมกันจนทำให้เกิดเผ่า
+                                            Halflings
+                                            (ฮาฟ์ลิงค์) แม้จะเกิดมาด้วยรูปร่างอัปลักษณ์ ฮาฟลิงค์ ก็มีดวงตา จมูก หู
+                                            เป็นเลิศ
+                                            และการเคลื่อนไหวที่ว่องไว ด้วยอำนาจของ Demetris
+                                            ทำให้สายฟ้าบางส่วนไปตกอยู่บนสวรรค์โดยไม่รู้ตัว
+                                        </p>
+                                        <p>
+                                            Shilen เทพรัตติกาล และความตาย ได้น้ำที่ Ava
+                                            มอบให้มาสร้างสิ่งมีชีวิตใต้แสงจันทร์
+                                            ด้วยพรจาก Ava ที่ให้กำเนิด Elves เมื่อได้รับอำนาจจากแสงจันทร์ เทพ Shilen
+                                            ได้สร้าง Dark Elves (ดาร์คเอลฟ์) ขี้นมา
+                                            จึงทำให้ดาร์คเอลฟ์ได้รับพรเช่นเดียวกับเอลฟ์ และได้พรจาก Shilen
+                                            ที่ทำให้มองเห็นความตายได้
+                                        </p>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="./dist/images/history-img2.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center mb-5">
+                                    <div class="col-4">
+                                        <img src="./dist/images/history-img3.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-4 small text-gold-light">
+                                        <p>มหาเทพ Ohn ก็ได้สร้างสิ่งมีชีวิตขี้นมาเองเช่นกัน Ohn ได้นำเปลวไฟศักสิทธิ์จาก
+                                            Peleus หินภูเขาโรฮานจาก Geogia สายน้ำจาก Ava และสายฟ้าจาก Demetris
+                                            มารวมกันภายใต้แสงจันทร์ก่อกำเนิดเผ่าพันธุ์ Dragon (มังกร) ที่เข้มแข็ง
+                                            มีอำนาจมหาศาลแม้กระทั่งเทพ Ohn เองยังคิดไม่ถึงว่ามังกรจะมีอำนาจมหาศาลขนาดนี้
+                                            เทพ
+                                            Ohn จึงเอาเผ่ามังกรไปซ่อนบนเกาะอันห่างไกลเพราะกลัวว่าจะเป็นอันตรายต่อโลก
+                                        </p>
+                                        <p>
+                                            เทพ Ohn มีคำสั่งให้เผ่าพันธุ์ทั้ง 5 ปกครองโรฮานโดยแบ่งดินแดนให้ดูแล
+                                            โดยมีเทพผู้สร้างแต่ล่ะเผ่าค่อยทำหน้าที่ดูแลสอนสั่งความรู้และวิทยการต่างๆให้
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- เริ่มเล่นเกม -->
+                        <div class="tab-pane fade" id="v-pills-start" role="tabpanel"
+                            aria-labelledby="v-pills-start-tab">
+                            <nav class="p-5">
+                                <div class="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-system-tab" data-toggle="tab"
+                                        href="#nav-system" role="tab" aria-controls="nav-system"
+                                        aria-selected="true">System</a>
+                                    <a class="nav-item nav-link" id="nav-installation-tab" data-toggle="tab"
+                                        href="#nav-installation" role="tab" aria-controls="nav-installation"
+                                        aria-selected="false">Installation</a>
+                                    <a class="nav-item nav-link small" id="nav-charecter-tab" data-toggle="tab"
+                                        href="#nav-charecter" role="tab" aria-controls="nav-charecter"
+                                        aria-selected="false">Charecter <br> Creation</a>
+                                    <a class="nav-item nav-link small" id="nav-interface-tab" data-toggle="tab"
+                                        href="#nav-interface" role="tab" aria-controls="nav-interface"
+                                        aria-selected="false">Game Interface</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-system" role="tabpanel"
+                                    aria-labelledby="nav-system-tab">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="card card-body bg-dark-light border-0 rounded-lg">
+                                                <h4 class="mb-4 font-prompt">สเป็คขั้นต่ำ</h4>
+                                                <dl class="row">
+                                                    <dt class="col-3 text-muted">OS</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        Windows XP SP 2 <br>
+                                                        Windows 2003 SP 2
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">CPU</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        Intel Pentium D 915(2.8Ghz),
+                                                        AMD Athlon64-X2 3800(2.0Ghz) more
+
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Memory</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        2GB more
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Graphics</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        Geforce 6x00, Radeon x600 more
+                                                        256MB more
+
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Sound</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        AC '97 compatible
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Direct X</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        DirectX 9.0c version or higher
+                                                    </dd>
+                                                    <dt class="col-3 text-muted">Hard Disk</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        6GB
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card card-body bg-dark-light border-0 rounded-lg">
+                                                <h4 class="mb-4 font-prompt text-primary">สเป็คที่แนะนำ</h4>
+                                                <dl class="row">
+                                                    <dt class="col-3 text-muted">OS</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        Windows XP SP 2 <br>
+                                                        Windows 2003 SP 2
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">CPU</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        Intel Pentium D 915(2.8Ghz),
+                                                        AMD Athlon64-X2 3800(2.0Ghz) more
+
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Memory</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        2GB more
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Graphics</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        Geforce 6x00, Radeon x600 more
+                                                        256MB more
+
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Sound</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        AC '97 compatible
+                                                    </dd>
+
+                                                    <dt class="col-3 text-muted">Direct X</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        DirectX 9.0c version or higher
+                                                    </dd>
+                                                    <dt class="col-3 text-muted">Hard Disk</dt>
+                                                    <dd class="col-9 font-weight-light">
+                                                        6GB
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-installation" role="tabpanel"
+                                    aria-labelledby="nav-installation-tab">...</div>
+                                <div class="tab-pane fade" id="nav-charecter" role="tabpanel"
+                                    aria-labelledby="nav-charecter-tab">...</div>
+                                <div class="tab-pane fade" id="nav-interface" role="tabpanel"
+                                    aria-labelledby="nav-interface-tab">...</div>
+                            </div>
+                        </div>
+
+                        <!-- อาชีพ -->
+                        <div class="tab-pane fade" id="v-pills-career" role="tabpanel"
+                            aria-labelledby="v-pills-career-tab">
+                            <nav class="p-5">
+                                <div class="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link small active" id="nav-human-tab" data-toggle="tab"
+                                        href="#nav-human" role="tab" aria-controls="nav-human"
+                                        aria-selected="true">Human</a>
+                                    <a class="nav-item nav-link small" id="nav-elf-tab" data-toggle="tab"
+                                        href="#nav-elf" role="tab" aria-controls="nav-elf" aria-selected="false">Elf</a>
+                                    <a class="nav-item nav-link small" id="nav-half-elf-tab" data-toggle="tab"
+                                        href="#nav-half-elf" role="tab" aria-controls="nav-half-elf"
+                                        aria-selected="false">Half Elf</a>
+                                    <a class="nav-item nav-link small" id="nav-dekan-tab" data-toggle="tab"
+                                        href="#nav-dekan" role="tab" aria-controls="nav-dekan"
+                                        aria-selected="true">Dekan</a>
+                                    <div class="w-100 mb-2"></div>
+                                    <a class="nav-item nav-link small ml-0" id="nav-ohan-tab" data-toggle="tab"
+                                        href="#nav-ohan" role="tab" aria-controls="nav-ohan"
+                                        aria-selected="false">Ohan</a>
+                                    <a class="nav-item nav-link small" id="nav-dark-elf-tab" data-toggle="tab"
+                                        href="#nav-dark-elf" role="tab" aria-controls="nav-dark-elf"
+                                        aria-selected="false">Dark Elf</a>
+                                    <a class="nav-item nav-link small" id="nav-giant-tab" data-toggle="tab"
+                                        href="#nav-giant" role="tab" aria-controls="nav-giant"
+                                        aria-selected="true">Giant</a>
+
+                                    <!-- Invisible -->
+                                    <a class="nav-item nav-link small invisible" id="nav-empty-tab" data-toggle="tab"
+                                        href="#nav-empty" role="tab" aria-controls="nav-empty"
+                                        aria-selected="true">empty</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-human" role="tabpanel"
+                                    aria-labelledby="nav-human-tab">
+                                    <div class="p-4">
+                                        <h1 class="text-human">Reces - Human</h1>
+                                        <div class="row mb-5">
+                                            <div class="col-5">
+                                                <img src="http://lorempixel.com/450/600/abstract" alt=""
+                                                    class="img-fluid">
+                                            </div>
+                                            <div class="col-7">
+                                                <h2>Human Knight</h2>
+                                                <p class="text-muted mb-5">Lorem ipsum dolor sit amet consectetur,
+                                                    adipisicing elit. Dolor
+                                                    excepturi qui id. Voluptatum aut neque deserunt rerum, corporis
+                                                    vero
+                                                    facere labore error quas assumenda quasi, at commodi,
+                                                    exercitationem
+                                                    accusamus nisi?</p>
+                                                <h2>Human Guardian</h2>
+                                                <p class="text-muted mb-5">Lorem ipsum dolor sit amet consectetur,
+                                                    adipisicing elit. Dolor
+                                                    excepturi qui id. Voluptatum aut neque deserunt rerum, corporis
+                                                    vero
+                                                    facere labore error quas assumenda quasi, at commodi,
+                                                    exercitationem
+                                                    accusamus nisi?</p>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-5">
+                                            <div class="col-7">
+                                                <h2>Human Defender</h2>
+                                                <p class="text-muted mb-5">Lorem ipsum dolor sit amet consectetur,
+                                                    adipisicing elit.</p>
+                                            </div>
+                                            <div class="col-5">
+                                                <img src="http://lorempixel.com/450/600/abstract" alt=""
+                                                    class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-elf" role="tabpanel" aria-labelledby="nav-elf-tab">
+                                    ...</div>
+                                <div class="tab-pane fade" id="nav-half-elf" role="tabpanel"
+                                    aria-labelledby="nav-half-elf-tab">...</div>
+                                <div class="tab-pane fade" id="nav-dekan" role="tabpanel"
+                                    aria-labelledby="nav-dekan-tab">...</div>
+                                <div class="tab-pane fade" id="nav-ohan" role="tabpanel" aria-labelledby="nav-ohan-tab">
+                                    ...</div>
+                                <div class="tab-pane fade" id="nav-dark-elf" role="tabpanel"
+                                    aria-labelledby="nav-dark-elf-tab">...</div>
+                                <div class="tab-pane fade" id="nav-giant" role="tabpanel"
+                                    aria-labelledby="nav-giant-tab">...</div>
+                            </div>
+                        </div>
+
+                        <!-- ระบบภายในเกม -->
+                        <div class="tab-pane fade" id="v-pills-rulse" role="tabpanel"
+                            aria-labelledby="v-pills-rulse-tab">
+                            <nav class="p-5">
+                                <div class="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link small active" id="nav-pvp-tab" data-toggle="tab"
+                                        href="#nav-pvp" role="tab" aria-controls="nav-pvp" aria-selected="true">PVP</a>
+                                    <a class="nav-item nav-link small" id="nav-profile-tab" data-toggle="tab"
+                                        href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                        aria-selected="false">Profile</a>
+                                    <a class="nav-item nav-link small" id="nav-contact-tab" data-toggle="tab"
+                                        href="#nav-contact" role="tab" aria-controls="nav-contact"
+                                        aria-selected="false">Contact</a>
+                                    <a class="nav-item nav-link small" id="nav-home-tab" data-toggle="tab"
+                                        href="#nav-home" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Home</a>
+                                    <a class="nav-item nav-link small" id="nav-profile-tab" data-toggle="tab"
+                                        href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                        aria-selected="false">Profile</a>
+                                    <div class="w-100 mb-2"></div>
+                                    <a class="nav-item nav-link small ml-0" id="nav-contact-tab" data-toggle="tab"
+                                        href="#nav-contact" role="tab" aria-controls="nav-contact"
+                                        aria-selected="false">Contact</a>
+                                    <a class="nav-item nav-link small" id="nav-home-tab" data-toggle="tab"
+                                        href="#nav-home" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Home</a>
+                                    <a class="nav-item nav-link small" id="nav-profile-tab" data-toggle="tab"
+                                        href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                        aria-selected="false">Profile</a>
+                                    <a class="nav-item nav-link small" id="nav-contact-tab" data-toggle="tab"
+                                        href="#nav-contact" role="tab" aria-controls="nav-contact"
+                                        aria-selected="false">Contact</a>
+                                    <a class="nav-item nav-link small" id="nav-home-tab" data-toggle="tab"
+                                        href="#nav-home" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Home</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-pvp" role="tabpanel"
+                                    aria-labelledby="nav-pvp-tab">
+                                    <div class="px-5 pb-5">
+                                        <h1 class="text-primary">PVP</h1>
+                                        <p class="text-muted">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione commodi ea
+                                            vitae, ullam dicta pariatur. Mollitia eum ad est consequatur, nam, amet qui
+                                            omnis inventore dolorem esse reprehenderit sint corrupti!
+                                        </p>
+                                        <p>
+                                            <img src="http://lorempixel.com/800/450/abstract" alt="" class="w-100" />
+                                        </p>
+                                        <h6 class="text-primary">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione commodi ea
+                                            vitae, ullam dicta pariatur.
+                                        </h6>
+                                        <ul class="list-unstyled text-muted">
+                                            <li>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                                                labore,
+                                                quasi, modi facilis ducimus harum aliquam saepe doloremque, est nam
+                                                facere accusantium. Nobis voluptatum nesciunt eos dolores magnam ipsa
+                                                adipisci!</li>
+                                            <li>- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
+                                                aspernatur aperiam quasi mollitia quam, dolores eos praesentium ipsum ex
+                                                quae, quia non reiciendis! Culpa facilis reiciendis amet odit voluptatum
+                                                quos!</li>
+                                            <li>- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+                                                repellendus fuga culpa, laborum veniam dolor magnam alias illo
+                                                recusandae! Maiores corrupti molestiae error eaque magnam sed quisquam
+                                                nisi ipsum voluptates!</li>
+                                            <li>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                                                aliquid eos illo maxime animi quaerat, necessitatibus consequatur quo
+                                                unde ducimus assumenda, aperiam exercitationem dolore molestiae, illum
+                                                tempore veritatis ex. Illo?</li>
+                                            <li>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                                                perspiciatis corporis possimus modi, in repellendus quisquam qui nobis
+                                                eligendi! Porro culpa doloribus vero adipisci minus aut soluta sed dolor
+                                                blanditiis!</li>
+                                            <li>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                                nulla,
+                                                delectus, temporibus quam sunt alias iste, repellendus veniam recusandae
+                                                laudantium nihil! Molestias cupiditate quibusdam debitis veritatis
+                                                voluptatibus ut sed ipsa!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">...</div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto bg-dark pt-1 pb-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <nav class="nav justify-content-between align-items-center text-center mb-5">
+                        <a href="#" class="nav-link active">
+                            <div>หน้าหลัก</div>
+                            <small>Home</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ข่าวสาร</div>
+                            <small>News</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>แนะนำผู้เล่น</div>
+                            <small>Game Guide</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ดาวน์โหลด</div>
+                            <small>Download</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ไอเท็มมอล</div>
+                            <small>R-Mall</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ระบบสมาชิก</div>
+                            <small>Member Login</small>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn">Privacy Policy | กฏกติกา</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./dist/js/isotope.pkgd.min.js"></script>
+    <script src="./dist/js/imagesloaded.pkgd.min.js"></script>
+
+    <script>
+        var $grid = $('.grid').imagesLoaded(function () {
+            // init Isotope after all images have loaded
+            $grid.isotope({
+                itemSelector: '.element-item',
+                percentPosition: true,
+            });
+        });
+        // filter functions
+        var filterFns = {
+            // show if number is greater than 50
+            numberGreaterThan50: function () {
+                var number = $(this).find('.number').text();
+                return parseInt(number, 10) > 50;
+            },
+            // show if name ends with -ium
+            ium: function () {
+                var name = $(this).find('.name').text();
+                return name.match(/ium$/);
+            }
+        };
+        // bind filter button click
+        $('.filters-button-group').on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+            // use filterFn if matches value
+            filterValue = filterFns[filterValue] || filterValue;
+            $grid.isotope({ filter: filterValue });
+        });
+        // change is-checked class on buttons
+        $('.button-group').each(function (i, buttonGroup) {
+            var $buttonGroup = $(buttonGroup);
+            $buttonGroup.on('click', 'button', function () {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $(this).addClass('is-checked');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

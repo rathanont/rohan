@@ -4,9 +4,15 @@ $warning:#FE7900;
 $danger:#EF1100;
 $dark: #0B0B0B;
 $darklight: #252525;
+$gold: #C49B69;
+$human: #2942DB;
 
 $body-bg: #000000;
 $body-color: #ffffff;
+
+$badge-notice: #7EFA00;
+$badge-event: #9837FF;
+$badge-promotion: #FFB900;
 
 $theme-colors: ("darklight": $darklight,
 );
@@ -40,3 +46,8 @@ xxl: 1557px);
 
 $enable-responsive-font-sizes: true;
 $rfs-base-font-size:1rem;
+
+// Pagination
+$pagination-bg: transparent;
+$pagination-color: white;
+$pagination-active-color: black;

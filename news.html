@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="th" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROHAN</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./dist/css/style.css">
+</head>
+
+<body class="landing-page d-flex flex-column">
+    <!-- BG Video -->
+    <div class="bg-video">
+        <video autoplay muted loop>
+            <source src="./dist/videos/bg-vdo.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <header class="container">
+        <nav class="nav justify-content-between align-items-center text-center">
+            <a href="#" class="nav-link ">
+                <div>หน้าหลัก</div>
+                <small>Home</small>
+            </a>
+            <a href="#" class="nav-link active">
+                <div>ข่าวสาร</div>
+                <small>News</small>
+            </a>
+            <a href="#" class="nav-link">
+                <div>แนะนำผู้เล่น</div>
+                <small>Game Guide</small>
+            </a>
+            <a href="./index.html" class="nav-link nav-link-logo">
+                <img src="./dist/images/LOGO.png" alt="ROHAN">
+            </a>
+            <a href="#" class="nav-link">
+                <div>ดาวน์โหลด</div>
+                <small>Download</small>
+            </a>
+            <a href="#" class="nav-link">
+                <div>ไอเท็มมอล</div>
+                <small>R-Mall</small>
+            </a>
+            <a href="#" class="nav-link">
+                <div>ระบบสมาชิก</div>
+                <small>Member Login</small>
+            </a>
+        </nav>
+    </header>
+
+    <main class="flex-shrink-0 container">
+        <!-- Register -->
+        <section id="register">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <a href="#" class="btn-register">
+                        <img src="./dist/images/Register.png" alt="Register">
+                    </a>
+                </div>
+
+                <!-- VDO -->
+                <div class="col-6 p-5">
+                    <div class="vdo mt-5">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mJc-Dg0rNRg"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="col-3">
+                <nav class="nav flex-column flex-nowrap mb-4">
+                    <!-- Download -->
+                    <a class="nav-link p-0" href="#">
+                        <img src="./dist/images/Download.png" alt="ดาวน์โหลด" class="w-100">
+                    </a>
+                    <!-- Game guide -->
+                    <a class="nav-link p-0" href="#">
+                        <img src="./dist/images/Guide.png" alt="เกมไกด์" class="w-100">
+                    </a>
+                    <!-- Buy point -->
+                    <a class="nav-link p-0" href="#">
+                        <img src="./dist/images/Cash Topup.png" alt="เติมเงิน" class="w-100">
+                    </a>
+                </nav>
+
+                <!-- Highlight -->
+                <div class="card card-highlight bg-dark mb-4">
+                    <h4 class="card-header text-primary text-uppercase">HIGHLIGHT</h4>
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mJc-Dg0rNRg"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GM -->
+                <div class="card card-gm bg-dark mb-4">
+                    <h4 class="card-header text-primary text-uppercase">GM Contact</h4>
+                    <div class="card-body">
+                        <div>แชทซัพพอร์ต ทุกวัน</div>
+                        <div class="bg-darklight rounded p-2 mt-2 mb-4 d-flex justify-content-center time-open">
+                            <span class="mr-2"><img src="./dist/images/Clock icon.png" alt="เวลา"
+                                    class="img-fluid"></span>
+                            <h4 class="mb-0 font-prompt">
+                                12:00 น - 22:00
+                            </h4>
+                        </div>
+                        <div class="text-center">
+
+                            <small class="text-muted">e-mail</small>
+                            <h4 class="font-prompt mb-4"><a href="mailto:gm@rha.in.th"
+                                    class="text-white">Gm@rha.in.th</a></h4>
+                            <small class="text-muted">พูดคุยกับทีมงานได้ผ่านระบบ LIVE CHAT <br>
+                                วันทำการ : สามารถติดต่อทีมงานได้ทุกวัน</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="card bg-dark">
+                    <div class="card-header border-bottom-0 pb-0">
+                        <span>
+                            <span class="font-tstb">ข่าวสารโรฮาน</small>
+                                <h2 class="mb-0 mt--2 text-primary">ROHAN NEWS</h4>
+                            </span>
+                    </div>
+                    <div class="card-body">
+                        <div class="button-group filters-button-group mb-4">
+                            <button class="btn rounded-pill btn-sm is-checked" data-filter="*">ALL</button>
+                            <button class="btn rounded-pill btn-sm" data-filter=".notice">NOTICE</button>
+                            <button class="btn rounded-pill btn-sm" data-filter=".event">EVENT</button>
+                            <button class="btn rounded-pill btn-sm" data-filter=".promotion">PROMOTION</button>
+                        </div>
+                        <div class="grid row">
+                            <div class="element-item col-3 notice" data-category="notice">
+                                <a href="#" class="card card-news-2">
+                                    <img src="./dist/images/img-news.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0">Lorem, ipsum do</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis,
+                                            molestias
+                                            ipsum? Vero
+                                        </p>
+                                        <span class="badge badge-notice">Notice</span> <small class="text-muted">15
+                                            นาทีที่แล้ว</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="element-item col-3 event" data-category="event">
+                                <a href="#" class="card card-news-2">
+                                    <img src="./dist/images/img-news.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0">Lorem, ipsum do</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis,
+                                            molestias
+                                            ipsum? Vero
+                                        </p>
+                                        <span class="badge badge-event">Event</span> <small class="text-muted">15
+                                            นาทีที่แล้ว</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="element-item col-3 promotion" data-category="promotion">
+                                <a href="#" class="card card-news-2">
+                                    <img src="./dist/images/img-news.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0">Lorem, ipsum do</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis,
+                                            molestias
+                                            ipsum? Vero
+                                        </p>
+                                        <span class="badge badge-promotion">Promotion</span> <small
+                                            class="text-muted">15
+                                            นาทีที่แล้ว</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="element-item col-3 notice" data-category="notice">
+                                <a href="#" class="card card-news-2">
+                                    <img src="./dist/images/img-news.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0">Lorem, ipsum do</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis,
+                                            molestias
+                                            ipsum? Vero
+                                        </p>
+                                        <span class="badge badge-notice">Notice</span> <small class="text-muted">15
+                                            นาทีที่แล้ว</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <nav aria-label="...">
+                            <ul class="pagination pagination-sm justify-content-center mt-5">
+                                <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto bg-dark pt-1 pb-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <nav class="nav justify-content-between align-items-center text-center mb-5">
+                        <a href="#" class="nav-link active">
+                            <div>หน้าหลัก</div>
+                            <small>Home</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ข่าวสาร</div>
+                            <small>News</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>แนะนำผู้เล่น</div>
+                            <small>Game Guide</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ดาวน์โหลด</div>
+                            <small>Download</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ไอเท็มมอล</div>
+                            <small>R-Mall</small>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <div>ระบบสมาชิก</div>
+                            <small>Member Login</small>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn">Privacy Policy | กฏกติกา</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./dist/js/isotope.pkgd.min.js"></script>
+    <script src="./dist/js/imagesloaded.pkgd.min.js"></script>
+
+    <script>
+        var $grid = $('.grid').imagesLoaded(function () {
+            // init Isotope after all images have loaded
+            $grid.isotope({
+                itemSelector: '.element-item',
+                percentPosition: true,
+            });
+        });
+        // filter functions
+        var filterFns = {
+            // show if number is greater than 50
+            numberGreaterThan50: function () {
+                var number = $(this).find('.number').text();
+                return parseInt(number, 10) > 50;
+            },
+            // show if name ends with -ium
+            ium: function () {
+                var name = $(this).find('.name').text();
+                return name.match(/ium$/);
+            }
+        };
+        // bind filter button click
+        $('.filters-button-group').on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+            // use filterFn if matches value
+            filterValue = filterFns[filterValue] || filterValue;
+            $grid.isotope({ filter: filterValue });
+        });
+        // change is-checked class on buttons
+        $('.button-group').each(function (i, buttonGroup) {
+            var $buttonGroup = $(buttonGroup);
+            $buttonGroup.on('click', 'button', function () {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $(this).addClass('is-checked');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
