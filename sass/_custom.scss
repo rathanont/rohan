@@ -4,7 +4,6 @@
     min-width: 100%;
     min-height: 100%;
     overflow: hidden;
-display: none;
     video {
         position: absolute;
         top: 0;
@@ -111,7 +110,7 @@ display: none;
     background-color: lighten($dark,5%);
 }
 
-.nav-pills{
+.nav-pills:not(.nav-recent){
     .nav-link{
         background-color: lighten($dark,5%);
         border: 1px solid lighten($dark,10%);

@@ -9279,8 +9279,7 @@ footer .btn {
   top: 0;
   min-width: 100%;
   min-height: 100%;
-  overflow: hidden;
-  display: none; }
+  overflow: hidden; }
   .bg-video video {
     position: absolute;
     top: 0;
@@ -9351,7 +9350,7 @@ footer .btn {
 .bg-dark-light {
   background-color: #181818; }
 
-.nav-pills .nav-link {
+.nav-pills:not(.nav-recent) .nav-link {
   background-color: #181818;
   border: 1px solid #252525;
   border-radius: 0;
@@ -9371,12 +9370,12 @@ footer .btn {
   padding: 0.25rem 1rem;
   min-width: 150px;
   min-height: 48px; }
-  .nav-pills .nav-link.small {
+  .nav-pills:not(.nav-recent) .nav-link.small {
     font-size: 15px;
     line-height: normal; }
-  .nav-pills .nav-link:not(:first-child) {
+  .nav-pills:not(.nav-recent) .nav-link:not(:first-child) {
     margin-left: .5rem; }
-  .nav-pills .nav-link:hover, .nav-pills .nav-link.active {
+  .nav-pills:not(.nav-recent) .nav-link:hover, .nav-pills:not(.nav-recent) .nav-link.active {
     background-color: #ff3700;
     color: black; }
 
