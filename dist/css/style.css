@@ -9328,7 +9328,7 @@ footer .btn {
     left: 2.5rem;
     width: 28px;
     height: 100%;
-    background: url("../images/_Hover.png") no-repeat center center;
+    background: url("../images/cursor-right.png") no-repeat center center;
     opacity: .25; }
   .nav-game-guide .nav-link.active, .nav-game-guide .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.5);
@@ -9367,8 +9367,8 @@ footer .btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.25rem 1rem;
-  min-width: 150px;
+  padding: 0.25rem .25rem;
+  min-width: 165px;
   min-height: 48px; }
   .nav-pills:not(.nav-recent) .nav-link.small {
     font-size: 15px;
